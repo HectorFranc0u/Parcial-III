@@ -20,5 +20,7 @@ namespace webAPI.Models
         public string FurMaterial{get;set;}
     
         public int FurPrice{get;set;}
+
+        public Gift gift {get;set;}
     }
 }
