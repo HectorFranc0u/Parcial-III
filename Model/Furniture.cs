@@ -7,7 +7,7 @@ namespace webAPI.Models
 {   [Authorize]
     public class Furniture
     {
-        
+
         //definicion de las propiedades
         [Key]
         

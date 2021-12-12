@@ -5,8 +5,6 @@ namespace webAPI.Data
 {
     public class DatabaseContext : DbContext
     {
-        internal object gifts;
-
         public DatabaseContext() { }
 
         public DatabaseContext(DbContextOptions<DatabaseContext> options) : base (options) { }
